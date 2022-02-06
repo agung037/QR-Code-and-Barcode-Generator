@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <title>QR Code Generator</title>
+  </head>
+  <body class="p-5">
+    <div class="container col-md-4">
+      <h1 class="text-center">QR & Bar Code Generator</h1>
+      <input autofocus id="text" type="text" class="form-control mt-4"  placeholder="Your text here ..." />
+      <div id="result" class="mt-4 d-flex justify-content-center"></div>
+      <div id="barcoderesult" class="mt-4 d-flex justify-content-center">
+      <svg id="barcode"></svg>
+
+      </div>
+      <!-- <hr class="mt-4">
+      <p class="text-center">Minimalist QR Code & Barcode Generator  </p> -->
+    </div>
+    <script src="./library.js"></script>
+    <script src="./qrcode.min.js"></script>
+    <script src="./barcode.js"></script>
+    <script src="./myscript.js"></script>
+  </body>
+</html>
