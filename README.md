@@ -1,9 +1,7 @@
-# How to use
-simply clone / download all file in this repository
-and open index.html file
+## Tentang Aplikasi 
+ini adalah aplikasi sederhana yang digunakan untuk merubah teks menjadi qrcode dan barcode
 
-input text on the form, then the qr code and barcode will change automatically
 
-live demo : https://qrgen.agungkurniawan1.repl.co
+live demo : https://qr.agungk.com
 
 ![capture program](https://i.ibb.co/2YnK9JR/download.png)
